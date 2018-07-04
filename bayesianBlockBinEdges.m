@@ -47,7 +47,7 @@ end
 change_points = zeros(n_unique,1);
 ind_cp = n_unique+1;
 indCurrent = n_unique+1;
-while true
+while indCurrent >= 1
     ind_cp = ind_cp - 1;
     change_points(ind_cp) = indCurrent;
     if indCurrent==1
